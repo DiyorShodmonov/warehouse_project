@@ -1,0 +1,83 @@
+﻿TEXNIK TOPSHIRIQNOMA
+
+
+Ushbu tizim omborga maxsulotlarni kirim-chiqimi hisobotini yuritishi kerak
+
+
+1. Ombor
+   1. Nomi (kiritiladi)
+   2. Holati (activ yoki inactiv) ya’ni ombor tizim uchun faol yoki nofaolligi haqida. Agar no faol bo’lsa tizim bu ombor ustida hech qanday amal bajarmaydi.
+
+
+2. Ishchi
+   1. Ismi (kiritiladi)
+   2. Familiyasi (kiritiladi)
+   3. Telefon raqami (kiritiladi)
+   4. Takrorlanmas(unique) ishchi raqami (tizim generatsiya qiladi)
+   5. Parol (kiritiladi)
+   6. Ombor (tanlanadi) tizimda mavjud ombor tanlanadi va ishchi shu ombor uchun ishlaydi.
+   7. Holati (activ yoki inactiv) ya’ni ishchining tizim uchun faol yoki nofaolligi haqida. Agar no faol bo’lsa tizim bu ishchi ustida hech qanday amal bajarmaydi.
+
+
+3. Kategoriya
+   1. Nomi (kiritiladi)
+   2. Holati (activ yoki inactiv) ya’ni categoriyaning tizim uchun faol yoki nofaolligi haqida. Agar no faol bo’lsa tizim bu categoriya ustida hech qanday amal bajarmaydi.
+
+
+
+
+4. O’lchov birligi
+   1. Nomi (kiritiladi)
+   2. Holati (activ yoki inactiv) ya’ni o’lchov birligining tizim uchun faol yoki nofaolligi haqida. Agar no faol bo’lsa tizim bu o’lchov birligi ustida hech qanday amal bajarmaydi.
+
+
+5. Valyuta turi
+   1. Nomi (kiritiladi)
+   2. Holati (activ yoki inactiv) ya’ni valyuta turi tizim uchun faol yoki nofaolligi haqida. Agar no faol bo’lsa tizim bu valyuta turi ustida hech qanday amal bajarmaydi.
+
+
+6. Mahsulot
+   1. Nomi (kiritiladi)
+   2. Kategoriyasi (tanlanadi) Tizimda mavjud kategoriya tanlanadi
+   3. Rasm (yuklanadi) bir nechta bo’lishi mumkin
+   4. Takrorlanmas(unique) mahsulot raqami (tizim generatsiya qiladi)
+   5. O’lchov birligi
+7. Taminotchi
+   1. Nomi
+   2. Telefon raqami
+
+
+8. Omborga kirim 
+   1. Sana (kiritiladi) 
+   2. Ombor (tanlanadi) Tizimda mavjud ombor tanlanadi
+   3. Ta’minotchi (tanlanadi) Tizimda mavjud ta’minotchi tanlanadi
+   4. Mahsulot(lar)
+      1. Mahsulot (tanlanadi)
+      2. O’lchov birligining qiymati (kiritiladi) Tanlangan o’lchov birligining qiymati kiritiladi. Masalan KG tanlangan bo’lsa 30 soni kiritiladi va natijada 30 kg bo’ladi.
+      3. Narxi (kiritiladi)
+      4. Yaroqlilik muddati
+   5. Valyuta turi (tanlanadi)
+   6. Faktura nomeri (kiritiladi)
+   7. Takrorlanmas(unique) raqam (tizim generatsiya qiladi) bu har bir kirim uchun unikalniy bo’ladi
+
+
+9. Ombordan chiqim 
+   1. Sana (kiritiladi) 
+   2. Ombor (tanlanadi) Tizimda mavjud ombor tanlanadi
+   3. Mahsulot(lar)
+      1. Mahsulot (tanlanadi)
+      2. O’lchov birligining qiymati (kiritiladi) Tanlangan o’lchov birligining qiymati kiritiladi. Masalan KG tanlangan bo’lsa 30 soni kiritiladi va natijada 30 kg bo’ladi.
+      3. Narxi (kiritiladi)
+   4. Valyuta turi (tanlanadi)
+   5. Faktura nomeri (kiritiladi)
+   6. Takrorlanmas(unique) raqam (tizim generatsiya qiladi) bu har bir kirim uchun unikalniy bo’ladi
+
+
+10. Dashboard
+   1. Kunlik kirim bo’lgan mahsulotlar (qiymati, umumiy summasi)
+   2. Kunlik eng ko’p chiqim qilingan mahsulotlar
+   3. Yaroqlilik muddati yetib qolgan mahsulotlar soni. Hohlasa to’liqroq ma’lumot olishi mumkin.
+
+
+11. Notification
+   1. Mahsulotlarning yaroqlilik muddatining tugashiga ma’lum bir vaqt qolganida tizim ogohlantirishi kerak. Bunda ogohlantiriladigan vaqtni admin kiritib qo’yadi.
